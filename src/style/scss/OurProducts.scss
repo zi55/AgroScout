@@ -1,0 +1,16 @@
+$container-width: 1400px;
+// $green: #02E602;
+// $White: white;
+$container-left: auto;
+$container-right: auto;
+$container-left1: 10px;
+$container-right1: 10px;
+// $bottom: 95px;
+
+.container {
+    max-width: $container-width;
+    margin-left: $container-left;
+    margin-right: $container-right;
+    padding-left: $container-left1;
+    padding-right: $container-right1;
+}

@@ -1,20 +1,11 @@
 import './App.scss';
 
+import Home from './Page/Home';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          <h1>HELLO</h1>          
-          <p>dfq</p>
-          <p>dfq</p>
-          <p>dfq</p>
-          <p>dfq</p>
-          <p>dfq</p>
-          <p>dfq</p>
-          <p>dfq</p>
-        </p>
-      </header>
+      <Home></Home>
     </div>
   );
 }

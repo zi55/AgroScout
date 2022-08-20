@@ -1,0 +1,73 @@
+$container-width: 1400px;
+$green: #02E602;
+$White: white;
+$container-left: auto;
+$container-right: auto;
+$container-left1: 10px;
+$container-right1: 10px;
+$bottom: 95px;
+
+.container {
+    max-width: $container-width;
+    margin-left: $container-left;
+    margin-right: $container-right;
+    padding-left: $container-left1;
+    padding-right: $container-right1;
+
+    .OurAdvantages-h1 {
+        font-family: 'RF Rufo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 120px;
+        line-height: 144px;
+        color: rgba(255, 255, 255, 0.2);
+        position: absolute;
+        top: -70px;
+    }
+
+    .OurAdvantages-h4 {
+        text-align: left;
+        color: $green;
+        font-family: 'RF Rufo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 48px;
+        margin-bottom: $bottom;
+    }
+
+    .OurAdvantages-grid {
+        gap: 17px;
+        color: $White;
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+    }
+
+    .OurAdvantages-flex {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .OurAdvantages-grid-block {
+        padding: 58px 30px 62px 33px;
+        background: #1E1D1D;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .OurAdvantages-p {
+        font-family: 'RF Rufo';
+        line-height: 31px;
+    }
+
+    .OurAdvantages-img-group{
+        position: absolute;
+        z-index: -1;
+        right: 0;
+        top: 0;
+        padding-top: 120px;
+        padding-right: 160px;
+        display: block;
+    }
+}
